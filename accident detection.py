@@ -55,7 +55,10 @@ while res:
             if  w * h >10000:
                 area = w * h
                 #Countint the number of frames for which the condition persists to refine the accident detection case
-                
+                arcount += 1
+                #print(arcount)
+            if arcount > 35:
+                flag = 1
                 
     if flag == 1:
         #If accident detected print Accident on the screen
