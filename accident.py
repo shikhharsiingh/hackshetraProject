@@ -7,7 +7,7 @@ def distance(x1, x2, y1, y2):
     return sum
 
 
-cap = cv2.VideoCapture("videoplayback.mp4")
+cap = cv2.VideoCapture("using.mp4")
 
 subtractor = cv2.createBackgroundSubtractorMOG2(history = 50, varThreshold = 20)
 
