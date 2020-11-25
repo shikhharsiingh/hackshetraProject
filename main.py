@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # empty list to store the frames
 col_images = []
 
-vidObj = cv2.VideoCapture("assets/footage.mp4") 
+vidObj = cv2.VideoCapture("footage.mp4") 
 
 # checks whether frames were extracted 
 success = 1
